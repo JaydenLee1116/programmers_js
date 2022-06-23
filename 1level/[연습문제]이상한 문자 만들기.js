@@ -10,3 +10,9 @@ function solution(s) {
   };
   return words.map((word) => changeUpperLower(word)).join(' ');
 }
+
+/* map()의 두번째 인자인 배열의 index까지 이용
+function solution(s){
+  return s.split(' ').map(i => i.split('').map((j, key) => key % 2 === 0 ? j.toUpperCase() : j).join('')).join(' ')
+}
+*/
