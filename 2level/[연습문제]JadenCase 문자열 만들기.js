@@ -5,7 +5,7 @@
 
 //     for (let word of words) {
 //         if (word === '') {
-
+//             continue;
 //         } else {
 //             word = word[0].toUpperCase() + word.slice(1);
 //             answer.push(word);

@@ -1,4 +1,3 @@
-console.log('jayden    hi'.split(' '));
 // function solution(n) {
 //     const fibonacci = (n) => {
 //         if (n === 0) {
