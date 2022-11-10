@@ -1,3 +1,7 @@
+/*
+연결리스트로 큐 구현
+조금 연습해보니, 연결리스트로 구현하는 게 더 편하다?!
+ */
 class Node {
   constructor(newValue) {
     this.value = newValue;
