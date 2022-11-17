@@ -75,6 +75,7 @@ class Tree {
 }
 
 const tree = new Tree(new TreeNode(9));
+
 tree.root.left = new TreeNode(3);
 tree.root.right = new TreeNode(8);
 tree.root.left.left = new TreeNode(2);
