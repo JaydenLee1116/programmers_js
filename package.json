@@ -1,0 +1,25 @@
+{
+  "name": "programmers_js",
+  "version": "1.0.0",
+  "description": "프로그래머스 자바스크립트",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenLee1116/programmers_js.git"
+  },
+  "author": "Jayden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaydenLee1116/programmers_js/issues"
+  },
+  "homepage": "https://github.com/JaydenLee1116/programmers_js#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0"
+  }
+}
