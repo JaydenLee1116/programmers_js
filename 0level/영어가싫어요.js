@@ -15,6 +15,5 @@ const solution = (numbers) => {
   for (let key in NUMBERS) {
     numbers = numbers.replaceAll(key, NUMBERS[key]);
   }
-  return numbers;
   return parseInt(numbers);
 };
