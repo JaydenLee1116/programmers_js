@@ -1,3 +1,6 @@
-var solution = function (num1, num2) {
-    return num1 === num2 ? 1 : -1;
-};
+"use strict";
+{
+    const solution = (num1, num2) => {
+        return num1 === num2 ? 1 : -1;
+    };
+}

@@ -1,9 +1,10 @@
+"use strict";
 {
-    var solution = function (my_string) {
+    const solution = (my_string) => {
         return my_string
             .replace(/[A-z]/g, ',')
             .split(',')
-            .reduce(function (acc, cur) {
+            .reduce((acc, cur) => {
             return cur === '' ? acc : acc + parseInt(cur);
         }, 0);
     };

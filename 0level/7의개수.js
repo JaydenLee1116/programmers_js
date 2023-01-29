@@ -1,10 +1,11 @@
-var solution = function (array) {
-    return array
-        .map(function (n) {
-        return n
+"use strict";
+{
+    const solution = (array) => {
+        return array
+            .map((n) => n
             .toString()
             .split('')
-            .filter(function (v) { return v === '7'; }).length;
-    })
-        .reduce(function (acc, cur) { return acc + cur; });
-};
+            .filter((v) => v === '7').length)
+            .reduce((acc, cur) => acc + cur);
+    };
+}
