@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../dream-typescript/.idea/dream-typescript.iml" filepath="$PROJECT_DIR$/../dream-typescript/.idea/dream-typescript.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/programmers_js.iml" filepath="$PROJECT_DIR$/.idea/programmers_js.iml" />
     </modules>
   </component>
