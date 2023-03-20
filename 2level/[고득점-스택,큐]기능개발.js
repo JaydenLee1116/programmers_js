@@ -27,5 +27,22 @@ function solution(progresses, speeds) {
   return answer;
 }
 
-// 깃 커밋 테스트
+// 새로 푼 방식
 
+const solution = (progresses, speeds) => {
+  let answer = [];
+  let stack = [];
+  const publishingDays = progresses.map((progress, i) => Math.ceil((100 - progress) / speeds[i]));
+
+  publishingDays.reduce((pre, cur) => {
+    if (pre >= cur) {
+      stack.push(cur);
+      return pre;
+    }
+    answer.push(++stack.length);
+    stack = [];
+    return cur;
+  });
+  answer.push(++stack.length);
+  return answer;
+};
